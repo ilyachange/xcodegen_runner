@@ -1,0 +1,19 @@
+name: xcodegen_runner
+description: Build runner for xcodegen
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  build: '>=2.0.0 <3.0.0'
+
+#dev_dependencies:
+#  flutter_lints: '>=1.0.4 <2.0.0'
+#  build_test: '>=2.0.0 <3.0.0'
+
+# TODO: When publish to pub.dev, disabled the dependencies_override
+#dependency_overrides:
+#  flutter_gen_core:
+#    path: ../core
